@@ -120,11 +120,11 @@ class Shape
         const vertices = this.vertices;
         const length = vertices.length;
 
-        // check if first point is inside the shape (this covers if the line is completely enclosed by the shape)
-        if (this.collidesPoint(p1))
-        {
-            return true;
-        }
+        // // check if first point is inside the shape (this covers if the line is completely enclosed by the shape)
+        // if (this.collidesPoint(p1))
+        // {
+        //     return true;
+        // }
 
         // check for intersections for all of the sides
         for (let i = 0; i < length; i += 2)
